@@ -9,6 +9,11 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
+			if(arr.length<=1){
+    return Infinity;
+}
+
+			
 			let h=arr[0];
 let sh=arr[0];
 for(let i=1;i<arr.length;i++){
